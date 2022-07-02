@@ -6,7 +6,7 @@ Vue.createApp({
         created() {
             document.title = Constant.TITLE; //Initialisation de la base <title> à la création de l'application
         },
-        data() {
+        data() { //la section data détermine les variables accessibles depuis la vue
             return {
                 todoList: this.getTodoList(),
                 title: Constant.TITLE
